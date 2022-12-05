@@ -15,9 +15,19 @@ pip install platformio
 ```bash
 pio device list
 pio boards esp32dev
+
+# search for library
 pio pkg search "header/GxEPD2.h"
+
+# verbose
 pio run -vv
-pio run --upload-port /dev/ttyUSB0
-pio device monitor -p /dev/ttyUSB0 -b 115200
+
+# if not matchin platformio.ini
+# pio run --upload-port /dev/ttyUSB0 -t upload
+pio run -t upload
+
+# if not matchin platformio.ini
+# pio device monitor -p /dev/ttyUSB0 -b 115200
+pio device monitor
 ```
 
