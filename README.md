@@ -12,5 +12,7 @@ Minimal examples:
 * [02_ESPink_pio_big](ESPink/02_ESPink_pio_big/)
 * [03_ESPink_arduino_ide](ESPink/03_ESPink_arduino_ide/)
 
-`pio` ~ [Platformio Core CLI](https://platformio.org/install/cli)
-`arduino ide` - [Arduino 2.x IDE](https://www.arduino.cc/en/software) (Electron based)
+Where:
+
+* `pio` ~ [Platformio Core CLI](https://platformio.org/install/cli)
+* `arduino ide` ~ [Arduino 2.x IDE](https://www.arduino.cc/en/software) (Electron based)
